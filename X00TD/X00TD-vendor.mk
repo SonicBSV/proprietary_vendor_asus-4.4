@@ -26,8 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00TD/proprietary/vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_workspaceFile.qwsp \
     vendor/asus/X00TD/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/asus/X00TD/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
-    vendor/asus/X00TD/proprietary/vendor/etc/camera/csidtg_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_camera.xml \
-    vendor/asus/X00TD/proprietary/vendor/etc/camera/csidtg_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_chromatix.xml \
     vendor/asus/X00TD/proprietary/vendor/etc/camera/gc5025_ofilm_13m_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/gc5025_ofilm_13m_chromatix.xml \
     vendor/asus/X00TD/proprietary/vendor/etc/camera/gc5025_ofilm_16m_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/gc5025_ofilm_16m_chromatix.xml \
     vendor/asus/X00TD/proprietary/vendor/etc/camera/hi1333_ofilm_13m_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/hi1333_ofilm_13m_chromatix.xml \
@@ -92,11 +90,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00TD/proprietary/vendor/lib/libarcsoft_hdr_detection.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_hdr_detection.so \
     vendor/asus/X00TD/proprietary/vendor/lib/libarcsoft_night_shot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_night_shot.so \
     vendor/asus/X00TD/proprietary/vendor/lib/libarcsoft_picselfie_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_picselfie_algorithm.so \
-    vendor/asus/X00TD/proprietary/vendor/lib/libchromatix_csidtg_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_common.so \
-    vendor/asus/X00TD/proprietary/vendor/lib/libchromatix_csidtg_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_cpp_preview.so \
-    vendor/asus/X00TD/proprietary/vendor/lib/libchromatix_csidtg_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_postproc.so \
-    vendor/asus/X00TD/proprietary/vendor/lib/libchromatix_csidtg_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_preview.so \
-    vendor/asus/X00TD/proprietary/vendor/lib/libchromatix_csidtg_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_zsl_preview.so \
     vendor/asus/X00TD/proprietary/vendor/lib/libchromatix_gc5025_ofilm_13m_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_gc5025_ofilm_13m_common.so \
     vendor/asus/X00TD/proprietary/vendor/lib/libchromatix_gc5025_ofilm_13m_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_gc5025_ofilm_13m_cpp_ds_chromatix.so \
     vendor/asus/X00TD/proprietary/vendor/lib/libchromatix_gc5025_ofilm_13m_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_gc5025_ofilm_13m_cpp_hfr_120.so \
@@ -525,11 +518,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00TD/proprietary/vendor/lib/libmmcamera_arcsoftbokeh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_arcsoftbokeh_lib.so \
     vendor/asus/X00TD/proprietary/vendor/lib/libmmcamera_atmel_at24c32e_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_atmel_at24c32e_eeprom.so \
     vendor/asus/X00TD/proprietary/vendor/lib/libmmcamera_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_bokeh.so \
-    vendor/asus/X00TD/proprietary/vendor/lib/libmmcamera_csidtg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_csidtg.so \
     vendor/asus/X00TD/proprietary/vendor/lib/libmmcamera_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dbg.so \
     vendor/asus/X00TD/proprietary/vendor/lib/libmmcamera_depth_map.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_depth_map.so \
     vendor/asus/X00TD/proprietary/vendor/lib/libmmcamera_dummyalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dummyalgo.so \
-    vendor/asus/X00TD/proprietary/vendor/lib/libmmcamera_dw9761b_2d_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dw9761b_2d_eeprom.so \
     vendor/asus/X00TD/proprietary/vendor/lib/libmmcamera_eebinparse.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eebinparse.so \
     vendor/asus/X00TD/proprietary/vendor/lib/libmmcamera_eeprom_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eeprom_util.so \
     vendor/asus/X00TD/proprietary/vendor/lib/libmmcamera_eztune_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eztune_module.so \
@@ -630,7 +621,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00TD/proprietary/vendor/lib/libmmcamera_qtech_f5670bq_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_qtech_f5670bq_eeprom.so \
     vendor/asus/X00TD/proprietary/vendor/lib/libmmcamera_quadracfa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_quadracfa.so \
     vendor/asus/X00TD/proprietary/vendor/lib/libmmcamera_rohm_brcg064gwz_3_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_rohm_brcg064gwz_3_eeprom.so \
-    vendor/asus/X00TD/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_stillmore_lib.so \
     vendor/asus/X00TD/proprietary/vendor/lib/libmmcamera_sunny_8865_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_8865_eeprom.so \
     vendor/asus/X00TD/proprietary/vendor/lib/libmmcamera_sunny_ov13855_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_ov13855_eeprom.so \
     vendor/asus/X00TD/proprietary/vendor/lib/libmmcamera_sunny_q13v06k_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_q13v06k_eeprom.so \
